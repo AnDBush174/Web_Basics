@@ -306,45 +306,104 @@
         </main>
 
         <section class="faq-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center">FAQ</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="btn btn-outline-primary btn-faq btn-block" data-toggle="collapse"
+                        data-target="#question1">
+                    Как купить?
+                </button>
+                <div id="question1" class="collapse">
+                    <p>Чтобы купить товар, выберите его и нажмите кнопку "Купить". Затем следуйте указаниям на
+                        экране для завершения покупки.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="btn btn-outline-primary btn-faq btn-block" data-toggle="collapse"
+                        data-target="#question2">
+                    Как доставить?
+                </button>
+                <div id="question2" class="collapse">
+                    <p>Мы предоставляем доставку в каждый регион. После совершения покупки вам будет
+                        предоставлена информация о доставке и способах получения товара.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="btn btn-outline-primary btn-faq btn-block" data-toggle="collapse"
+                        data-target="#question3">
+                    Какая гарантия?
+                </button>
+                <div id="question3" class="collapse">
+                    <p>Все наши товары имеют гарантию в течение определенного периода времени. Обратитесь к
+                        описанию товара для получения подробной информации о гарантии.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <section class="faq-table-section">
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <h2 class="text-center">Часто задаваемые вопросы</h2>
+                        <h2 class="text-center">FAQ таблица</h2>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12">
-                        <button class="btn btn-outline-primary btn-faq" data-toggle="collapse" data-target="#question1">
-                            Как купить?
-                        </button>
-                        <div id="question1" class="collapse">
-                            <p>Чтобы купить товар, выберите его и нажмите кнопку "Купить". Затем следуйте указаниям на
-                                экране для завершения покупки.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <button class="btn btn-outline-primary btn-faq" data-toggle="collapse" data-target="#question2">
-                            Как доставить?
-                        </button>
-                        <div id="question2" class="collapse">
-                            <p>Мы предоставляем доставку в каждый регион. После совершения покупки вам будет
-                                предоставлена информация о доставке и способах получения товара.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <button class="btn btn-outline-primary btn-faq" data-toggle="collapse" data-target="#question3">
-                            Какая гарантия?
-                        </button>
-                        <div id="question3" class="collapse">
-                            <p>Все наши товары имеют гарантию в течение определенного периода времени. Обратитесь к
-                                описанию товара для получения подробной информации о гарантии.</p>
-                        </div>
-                    </div>
-                </div>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th scope="col">Номер</th>
+                        <th scope="col">Название товара</th>
+                        <th scope="col">Цена за штуку</th>
+                        <th scope="col">Количество</th>
+                        <th scope="col">Итоговая сумма</th>
+                        <th scope="col">Статус заказа</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Товар 1</td>
+                        <td>$100</td>
+                        <td>5</td>
+                        <td>$500</td>
+                        <td><span class="badge bg-primary">Новый</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Товар 2</td>
+                        <td>$50</td>
+                        <td>3</td>
+                        <td>$150</td>
+                        <td><span class="badge bg-warning">Обработка</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Товар 3</td>
+                        <td>$200</td>
+                        <td>2</td>
+                        <td>$400</td>
+                        <td><span class="badge bg-success">Обработан</span></td>
+                    </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>Товар 4</td>
+                        <td>$80</td>
+                        <td>1</td>
+                        <td>$80</td>
+                        <td><span class="badge bg-danger">Отмена</span></td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
         </section>
 
@@ -366,3 +425,4 @@
 </script>
 </body>
 </html>
+"""
